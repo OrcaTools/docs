@@ -3,7 +3,29 @@ nav:
     - Welcome: index.md
     - Orcascript:
         - Syntax Guide: Syntax Guide/index.md
-        - Module Index: Syntax Guide/modules.md
+        - Builtins:
+            - print: Syntax Guide/builtins/print.md
+            - printf: Syntax Guide/builtins/printf.md
+            - getenv: Syntax Guide/builtins/getenv.md
+            - setenv: Syntax Guide/builtins/setenv.md
+            - isfile: Syntax Guide/builtins/isfile.md
+            - read: Syntax Guide/builtins/read.md
+            - write: Syntax Guide/builtins/write.md
+            - mkdir: Syntax Guide/builtins/mkdir.md
+            - mkpath: Syntax Guide/builtins/mkpath.md
+            - push: Syntax Guide/builtins/push.md
+
+        - Libraries:
+            - Template: Syntax Guide/stdlib/template.md
+            - SSHClient: Syntax Guide/stdlib/ssh.md
+            - Lockbox: Syntax Guide/stdlib/lockbox.md
+            - HostInfo: Syntax Guide/stdlib/host.md
+            - HTTPClient: Syntax Guide/stdlib/http.md
+            - GitClient: Syntax Guide/stdlib/git.md
+        
+        - Examples:
+            - helloworld: Syntax Guide/examples/hello.md
+
     - Config Management:
         - Intro: Config Management/index.md
         - Declaritive State Definitions: Config Management/state.md
